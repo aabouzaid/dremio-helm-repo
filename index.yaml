@@ -1,3 +1,20 @@
 apiVersion: v1
-entries: {}
+entries:
+  dremio:
+  - apiVersion: v1
+    appVersion: 24.0.0
+    created: "2023-02-22T03:17:13.209725396Z"
+    digest: f160a8b90b96d35f07afe06304936c5b379a3eaae040c83be69486d7275c0659
+    home: https://www.dremio.com/
+    keywords:
+    - dremio
+    - datalake
+    - datalakehouse
+    name: dremio
+    sources:
+    - https://github.com/dremio/dremio-cloud-tools/blob/master/charts/dremio_v2
+    type: application
+    urls:
+    - https://github.com/aabouzaid/dremio-helm-repo/releases/download/dremio-24.0.0/dremio-24.0.0.tgz
+    version: 24.0.0
 generated: "2023-02-22T03:17:13.209725396+01:00"
